@@ -31,7 +31,6 @@ class Canvas: UIView {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         lines.append([CGPoint]())
-        print(lines)
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -43,6 +42,16 @@ class Canvas: UIView {
         
         lines.append(lastElement)
         
+        setNeedsDisplay()
+    }
+    
+    func undoLine() {
+        lines.removeLast()
+        setNeedsDisplay()
+    }
+    
+    func cleanLines() {
+        lines.removeAll()
         setNeedsDisplay()
     }
 }
