@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3B72E02700B9610014FCEC /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B72DF2700B9610014FCEC /* Line.swift */; };
 		CE40715126FC6D59009629F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40715026FC6D59009629F2 /* AppDelegate.swift */; };
 		CE40715326FC6D59009629F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40715226FC6D59009629F2 /* SceneDelegate.swift */; };
 		CE40715526FC6D59009629F2 /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40715426FC6D59009629F2 /* CanvasViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE3B72DF2700B9610014FCEC /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		CE40714D26FC6D59009629F2 /* iDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE40715026FC6D59009629F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE40715226FC6D59009629F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE3B72DD2700B92E0014FCEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B72DF2700B9610014FCEC /* Line.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CE40714426FC6D59009629F2 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		CE40714F26FC6D59009629F2 /* iDraw */ = {
 			isa = PBXGroup;
 			children = (
+				CE3B72DD2700B92E0014FCEC /* Models */,
 				CE40716726FC73C5009629F2 /* Views */,
 				CE40716626FC71FF009629F2 /* ViewControllers */,
 				CE40716526FC71DB009629F2 /* Storyboards */,
@@ -172,6 +183,7 @@
 				CE40715126FC6D59009629F2 /* AppDelegate.swift in Sources */,
 				CE40715326FC6D59009629F2 /* SceneDelegate.swift in Sources */,
 				CE40716926FC740F009629F2 /* Canvas.swift in Sources */,
+				CE3B72E02700B9610014FCEC /* Line.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
