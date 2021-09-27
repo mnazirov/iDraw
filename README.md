@@ -9,4 +9,4 @@
 - [X] Thickness control
 
 ## Preview
-👨‍💻 In develop
+![Preview app](https://github.com/mnazirov/iDraw/Sourses/Preview.gif)
