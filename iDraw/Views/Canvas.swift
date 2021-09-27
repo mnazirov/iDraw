@@ -51,8 +51,10 @@ class Canvas: UIView {
     }
     
     func undoLine() {
-        lines.removeLast()
-        setNeedsDisplay()
+        if !lines.isEmpty {
+            lines.removeLast()
+            setNeedsDisplay()
+        }
     }
     
     func cleanLines() {
