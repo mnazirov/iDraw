@@ -2,11 +2,11 @@
 🎨 Minimalist drawing app
 
 ## Tasks List
-- [ ] Implementation of drawing on the screen 
-- [ ] Adding screen cleanup
-- [ ] Adding the "Step Back" function 
-- [ ] Adding other colors
-- [ ] Thickness control
+- [X] Implementation of drawing on the screen 
+- [X] Adding screen cleanup
+- [X] Adding the "Step Back" function 
+- [X] Adding other colors
+- [X] Thickness control
 
 ## Preview
 👨‍💻 In develop
